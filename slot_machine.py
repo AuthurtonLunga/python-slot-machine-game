@@ -80,7 +80,6 @@ def deposit():
                 print("Amount must be greater than 0.")
         else:
             print("Please enter a number")
-
     return amount
 
 
@@ -97,7 +96,6 @@ def get_number_of_lines():
                 print("Enter a valid number of lines.")
         else:
             print("Please enter a number")
-
     return lines
 
 
