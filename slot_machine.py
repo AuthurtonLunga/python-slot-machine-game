@@ -68,7 +68,6 @@ def print_slot_machine(columns):
 def deposit():
     while True:
         amount = str(input("How much would you like to deposit? $"))
-        # print(type(amount))
 
         # I need to make it if the amount is not a string to capture it, even when empty
         if amount.isdigit():
@@ -102,7 +101,6 @@ def get_number_of_lines():
 def get_bet():
     while True:
         amount = str(input("How much would you like to bet on each line? $"))
-        # print(type(amount))
 
         # I need to make it if the amount is not a string to capture it, even when empty
         if amount.isdigit():
